@@ -1,0 +1,109 @@
+
+      h1 {
+        font-size: 1.7em;
+      }
+      pre.prettyprint {
+        padding: 16px;
+        background: #eee;
+        min-width: 600px;
+        display: inline-block;
+      margin: 0;
+      }
+      #myinput {
+		width: 100%;
+		text-align: left;
+		  color: #fff;
+		  border-radius: 0; 
+    }
+      #myfilter {
+          padding: 0.3em 0.4em;
+      font-size: 1.1em;
+      margin: 0 0 20px;
+      width: 600px;
+      color: #36e;
+      border: 1px solid #ccc;
+      border-radius: 0.2em;
+    }
+        #related {
+        display: none;
+        }
+    #related ul {
+      padding: 0;
+      list-style-type: none;
+    }
+    #related li {
+      display: block;
+      padding: 0 0 0 20px;
+      margin: 0.2em 0;
+      background-repeat: no-repeat;
+      position: absolute;
+    }
+    .related_entity {
+      cursor: pointer;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px; 
+      display: block;
+      vertical-align: top;
+      font-size: 0.8em;
+      border: 1px solid rgba(40, 121, 136, 0.77);
+      padding: 2em;
+      background: rgba(40, 121, 136, 0.58);
+      text-align: center;
+      box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    .related_entity:hover {
+      border:3px solid rgba(117, 117, 187, 0.22);
+    }
+    .related_entity img {
+      margin: 0 0 0.5em 0;
+	  position: absolute;
+		border-radius: 50%;
+		margin: -13px 0 0 -87px;
+		max-width: 173px;
+		opacity: 0.8;
+		transition: 1s;
+    }
+	.related_entity img:hover{
+		opacity: 1
+	}
+    .related_entity a {
+      text-decoration: none;
+      color: black;
+    }
+    #topic_info{
+		width: 23%;
+		margin: -34px 0 0 -11px;
+		color: #fafafa;
+		height: 82%;
+		overflow-y: scroll;
+		display: block;
+		position: fixed;
+		transition: 1s;
+		direction: rtl;
+		text-align: left;
+		overflow-x: hidden;
+		padding: 0 0 0 19px;
+    }
+		  #topic_info:hover{
+		  	color: #fff;
+		  }
+	.notable-name{
+		position: relative;
+		z-index: 2;
+		color: #fafafa;
+	}
+
+.bubTitle{
+	transition:1s;
+	opacity:0.9;
+	color:#fff;
+	position:relative;
+	font-size:21px;
+	font-weight:bold;
+}
+	.bubTitle:hover{opacity:1;}
+
+    .footer{
+		margin: 37px auto -69px auto;
+	}
